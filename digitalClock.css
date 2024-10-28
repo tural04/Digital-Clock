@@ -1,0 +1,26 @@
+body {
+    background-image: url(digitalClock.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
